@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Pixiv Token Desk",
+  "name": "pixiv-token-extension",
   "version": "0.2.0",
   "description": "在本机获取和刷新自己账号的 Pixiv App API 令牌。",
   "minimum_chrome_version": "120",
@@ -12,7 +12,7 @@
     "https://oauth.secure.pixiv.net/*"
   ],
   "background": { "service_worker": "background.js", "type": "module" },
-  "action": { "default_title": "Pixiv Token Desk", "default_popup": "page.html" },
+  "action": { "default_title": "pixiv-token-extension", "default_popup": "page.html" },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'; connect-src https://oauth.secure.pixiv.net https://app-api.pixiv.net https://accounts.pixiv.net"
   }

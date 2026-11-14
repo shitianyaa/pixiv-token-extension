@@ -1,4 +1,4 @@
-# Pixiv Token Desk
+# pixiv-token-extension
 
 Chrome / Edge 工具栏弹窗，使用当前浏览器已登录的 Pixiv 账号获取和刷新 App API 令牌。无后端、无构建依赖。
 
