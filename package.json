@@ -1,0 +1,11 @@
+{
+  "name": "pixiv-token-extension",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check extension/background.js && node --check extension/controller.js && node --check extension/oauth.js && node --check extension/web-session.js && node --check extension/page.js"
+  },
+  "engines": { "node": ">=22" }
+}
